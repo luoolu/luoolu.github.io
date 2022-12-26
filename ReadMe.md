@@ -12,4 +12,4 @@
 
 ## Falcon IO CV ROAD
 
-$ https://luoolu.github.io/cv/
+$ https://luoolu.github.io
