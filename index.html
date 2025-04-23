@@ -1,203 +1,327 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=13ed935693955cf850e0f4e0097cd6602d306a9e">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+  <!-- Techno Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css?v=13ed935693955cf850e0f4e0097cd6602d306a9e">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-<div class="wrapper">
-    <header>
-<!--        <h1><a href="https://luolugithub.github.io/luolu.github.io/">Luo Lu</a></h1>-->
-
-        <img src="imgs/header.gif" alt="this slowpoke moves" width="100%"><br>
-        <br>
-        <img src="https://avatars.githubusercontent.com/u/18479844?v=4" alt="Logo"/>
-
-
-        <p>
-        <p><b>Algorithm Application Scientist </b><br>PETROCHINA</p></p>
-
-
-        <p class="view"><a href="https://github.com/luolugithub">GitHub</a></p>
-
-
-        <p class="view"><a href="https://luolu.github.io/publications">Publications</a></p>
-
-
+  <div class="wrapper">
+    <!-- Hero Header -->
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="imgs/header.gif" alt="Futuristic header animation" width="100%">
+        <h1>Luo Lu</h1>
+        <p class="subtitle"><b>Algorithm Application Scientist</b><br>PETROCHINA</p>
+        <p class="subtitle">email: <strong>argluolu@gmail.com</strong></p>
+        <p class="view">
+          <a href="https://github.com/luolugithub">GitHub</a>
+          |
+          <a href="https://luolu.github.io/publications">Publications</a>
+        </p>
+      </div>
     </header>
+
+    <!-- Main Section -->
     <section>
+      <h1 id="publications--datasets--cv">
+        <a href="applications">Applications Case</a>
+        |
+        <a href="Datasets/datasets">Datasets</a>
+        |
+        <a href="/imgs/speech_cv.pptx">CV</a>
+      </h1>
+      <hr/>
 
-        <h1 id="publications--datasets--cv"><a href="applications">Applications Case</a> | <a href="Datasets/datasets">Datasets</a>
-            | <a href="/imgs/speech_cv.pptx">CV</a></h1>
-        <hr/>
+      <div class="cards">
+        <div class="card">
+          <h2>CV Algorithm Application Scientist</h2>
+          <p>PETROCHINA<br>email: <strong>argluolu@gmail.com</strong></p>
+        </div>
 
-        <p>CV Algorithm Application Scientist<br/>
-            PETROCHINA<br/>
-            email: <strong>argluolu@gmail.com</strong><br/>
+        <div class="card">
+          <h2>Baop Slices Sphere</h2>
+          <img src="imgs/bp_video_sphere.gif" alt="Baop Slices Sphere">
+        </div>
 
-        <p>Baop Slices Sphere<br/>
-            <img src="imgs/bp_video_sphere.gif" alt="this slowpoke moves"/>
-        <p>face detection<br/>
-            <img src="imgs/falconCoreTeam.jpg"/>
-        <p>people detection<br/>
-            <img src="imgs/falconCoreTeamDetect.jpg"/>
-        <p>Lubelme Auto Contour<br/>
-            <img src="imgs/lubelme.gif" alt="this slowpoke moves"/>
-        <p>pig detection<br/>
-            <img src="imgs/pig_detection.jpg"/>
-        <p>donkey face detection<br/>
-            <img src="imgs/donkey_detection.jpg"/>
-        <p>cow face detection<br/>
-            <img src="imgs/cow_face_detection.jpg"/>
-        <p>cow on server<br/>
-            <img src="imgs/cow_server.jpg"/>
-        <p>cow lipei toubao<br/>
-            <img src="imgs/cow_conditional.jpg"/>
-        <p>CT Particle<br/>
-            <img src="imgs/ct_particle.jpg"/>
-        <p>Instance Line of Particle<br/>
-            <img src="imgs/contact_line.png"/>
-        <p>kuangwu video recognition<br/>
-            <img src="imgs/img.png"/>
-        <p>OCR with deep learning<br/>
-            <img src="imgs/deep_ocr.gif" alt="this slowpoke moves"/>
-        <p>scale detect and recognition<br/>
-            <img src="imgs/img_1.png"/>
-        <p>HTK instance segmentation<br/>
-            <img src="imgs/img_2.png"/>
-        <p>erli instance segmentation<br/>
-            <img src="imgs/erli_instance_seg.png"/>
-        <p>Micro Img Ins_segmentation<br/>
-            <img src="imgs/mkli.gif" alt="this slowpoke moves"/>
-        <p>Micro Img Ins_segmentation2<br/>
-            <img src="imgs/mkli2.gif" alt="this slowpoke moves"/>
-        <p>kuangwu keli<br/>
-            <video width="600" height="480" autoplay muted>
-                <source src="imgs/bao1-16-1567_m007_shiying_32.mp4" type="video/mp4">
-            </video>
-            <video width="600" height="480" autoplay muted>
-                <source src="imgs/bao1-16-1551_m008_suanxingpenchuyan_1.mp4" type="video/mp4">
-            </video>
-            <video width="600" height="480" autoplay muted>
-                <source src="imgs/bao1-16-1566_m005_jiaojiewu_fangjieshi_47.mp4" type="video/mp4">
-            </video>
-            <video width="600" height="480" autoplay muted>
-                <source src="imgs/bao1-16-1569_m012_changshi_0.mp4" type="video/mp4">
-            </video>
-            <div class="clear"></div>
-        <p>src keli video<br/>
-            <img src="imgs/bpkeli_srcx2.gif" alt="this slowpoke moves"/>
-        <p>keli video instance segmentation<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/test_keli.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>Image Debluring<br/>
-            <img src="imgs/deblur_1.gif" alt="this slowpoke moves"/>
-        <p>Super Resolution demo_1<br/>
-            <img src="imgs/super_resolution_1.gif" alt="this slowpoke moves"/>
-        <p>Super Resolution demo_2<br/>
-            <img src="imgs/super_resolution_2.gif" alt="this slowpoke moves"/>
-        <p>shading correction<br/>
-            <img src="imgs/illuminlation.gif" alt="this slowpoke moves"/>
-        <p>PS shadow removal<br/>
-            <img src="imgs/ps_shadow_removing.gif" alt="this slowpoke moves"/>
-        <p>shadow removal<br/>
-            <img src="imgs/shadow_removal.gif" alt="this slowpoke moves"/>
-        <p>Shadow Remove<br/>
-            <img src="imgs/shadow_remove.png"/>
-        <p>semantic segmentation<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/semantic_segmentation.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>huahen inpainting<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/huahen_demo.webm" type="video/webm">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>jingyan inpainted<br/>
-            <p>jingyan inpainted 1<br/>
-            <img src="imgs/jingyan_inpanted_1.gif"/>
-            <p>jingyan inpainted 2<br/>
-                <img src="imgs/jingyan_inpanted_2.gif"/>
-            <p>jingyan inpainted 3<br/>
-                <img src="imgs/jingyan_inpanted_3.gif"/>
-            <p>jingyan inpainted 5<br/>
-                <img src="imgs/jingyan_inpanted_5.gif"/>
-            <p>jingyan inpainted 6<br/>
-                <img src="imgs/jingyan_inpanted_6.gif"/>
-            <div class="clear"></div>
-        <p>kongxi 3D rendering<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/kongxi_3d_render.webm" type="video/webm">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>Deep Fake<br/>
-            <img src="imgs/dongqing_faceswap.png"/>
-        <p>src face<br/>
-        <p>3D Reconstruction<br/>
-            <img src="imgs/deepface.gif" alt="this slowpoke moves"/>
+        <div class="card">
+          <h2>Face Detection</h2>
+          <img src="imgs/falconCoreTeam.jpg" alt="Face Detection">
+        </div>
 
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/dqing.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>replace face with Dongqing<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/dqing_swapsingle.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        <p>replace face with Dongqing<br/>
-            <video width="1920" height="1080" autoplay muted>
-                <source src="imgs/dq2_swapsingle.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
+        <div class="card">
+          <h2>People Detection</h2>
+          <img src="imgs/falconCoreTeamDetect.jpg" alt="People Detection">
+        </div>
 
-        <p>Super Resolution<br/>
-            <img src="imgs/super_resolution.png"/>
-        <p>3D Reconstruction<br/>
-            <img src="imgs/3d_reconstruction.gif" alt="this slowpoke moves"/>
-        <p>Doc Image Correction<br/>
-            <img src="imgs/doc_img_correction.gif" alt="this slowpoke moves"/>
+        <div class="card">
+          <h2>Lubelme Auto Contour</h2>
+          <img src="imgs/lubelme.gif" alt="Lubelme Auto Contour">
+        </div>
 
-        <p>clustering attention<br/>
-            <img src="imgs/kaifa_attention.gif" alt="this slowpoke moves"/>
+        <div class="card">
+          <h2>Pig Detection</h2>
+          <img src="imgs/pig_detection.jpg" alt="Pig Detection">
+        </div>
 
+        <div class="card">
+          <h2>Donkey Face Detection</h2>
+          <img src="imgs/donkey_detection.jpg" alt="Donkey Face Detection">
+        </div>
 
+        <div class="card">
+          <h2>Cow Face Detection</h2>
+          <img src="imgs/cow_face_detection.jpg" alt="Cow Face Detection">
+        </div>
+
+        <div class="card">
+          <h2>Cow on Server</h2>
+          <img src="imgs/cow_server.jpg" alt="Cow on Server">
+        </div>
+
+        <div class="card">
+          <h2>Cow Lipei Toubao</h2>
+          <img src="imgs/cow_conditional.jpg" alt="Cow Lipei Toubao">
+        </div>
+
+        <div class="card">
+          <h2>CT Particle</h2>
+          <img src="imgs/ct_particle.jpg" alt="CT Particle">
+        </div>
+
+        <div class="card">
+          <h2>Instance Line of Particle</h2>
+          <img src="imgs/contact_line.png" alt="Instance Line of Particle">
+        </div>
+
+        <div class="card">
+          <h2>Kuangwu Video Recognition</h2>
+          <img src="imgs/img.png" alt="Kuangwu Video Recognition">
+        </div>
+
+        <div class="card">
+          <h2>OCR with Deep Learning</h2>
+          <img src="imgs/deep_ocr.gif" alt="OCR with Deep Learning">
+        </div>
+
+        <div class="card">
+          <h2>Scale Detect and Recognition</h2>
+          <img src="imgs/img_1.png" alt="Scale Detect and Recognition">
+        </div>
+
+        <div class="card">
+          <h2>HTK Instance Segmentation</h2>
+          <img src="imgs/img_2.png" alt="HTK Instance Segmentation">
+        </div>
+
+        <div class="card">
+          <h2>Erli Instance Segmentation</h2>
+          <img src="imgs/erli_instance_seg.png" alt="Erli Instance Segmentation">
+        </div>
+
+        <div class="card">
+          <h2>Micro Img Instance Segmentation</h2>
+          <img src="imgs/mkli.gif" alt="Micro Img Instance Segmentation">
+        </div>
+
+        <div class="card">
+          <h2>Micro Img Instance Segmentation 2</h2>
+          <img src="imgs/mkli2.gif" alt="Micro Img Instance Segmentation 2">
+        </div>
+
+        <div class="card">
+          <h2>Kuangwu Keli</h2>
+          <video width="600" height="480" autoplay muted>
+            <source src="imgs/bao1-16-1567_m007_shiying_32.mp4" type="video/mp4">
+          </video>
+          <video width="600" height="480" autoplay muted>
+            <source src="imgs/bao1-16-1551_m008_suanxingpenchuyan_1.mp4" type="video/mp4">
+          </video>
+          <video width="600" height="480" autoplay muted>
+            <source src="imgs/bao1-16-1566_m005_jiaojiewu_fangjieshi_47.mp4" type="video/mp4">
+          </video>
+          <video width="600" height="480" autoplay muted>
+            <source src="imgs/bao1-16-1569_m012_changshi_0.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Src Keli Video</h2>
+          <img src="imgs/bpkeli_srcx2.gif" alt="Src Keli Video">
+        </div>
+
+        <div class="card">
+          <h2>Keli Video Instance Segmentation</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/test_keli.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Image Deblurring</h2>
+          <img src="imgs/deblur_1.gif" alt="Image Deblurring">
+        </div>
+
+        <div class="card">
+          <h2>Super Resolution Demo 1</h2>
+          <img src="imgs/super_resolution_1.gif" alt="Super Resolution Demo 1">
+        </div>
+
+        <div class="card">
+          <h2>Super Resolution Demo 2</h2>
+          <img src="imgs/super_resolution_2.gif" alt="Super Resolution Demo 2">
+        </div>
+
+        <div class="card">
+          <h2>Shading Correction</h2>
+          <img src="imgs/illuminlation.gif" alt="Shading Correction">
+        </div>
+
+        <div class="card">
+          <h2>PS Shadow Removal</h2>
+          <img src="imgs/ps_shadow_removing.gif" alt="PS Shadow Removal">
+        </div>
+
+        <div class="card">
+          <h2>Shadow Removal</h2>
+          <img src="imgs/shadow_removal.gif" alt="Shadow Removal">
+        </div>
+
+        <div class="card">
+          <h2>Shadow Remove</h2>
+          <img src="imgs/shadow_remove.png" alt="Shadow Remove">
+        </div>
+
+        <div class="card">
+          <h2>Semantic Segmentation</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/semantic_segmentation.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Huahen Inpainting</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/huahen_demo.webm" type="video/webm">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Jingyan Inpainted 1</h2>
+          <img src="imgs/jingyan_inpanted_1.gif" alt="Jingyan Inpainted 1">
+        </div>
+
+        <div class="card">
+          <h2>Jingyan Inpainted 2</h2>
+          <img src="imgs/jingyan_inpanted_2.gif" alt="Jingyan Inpainted 2">
+        </div>
+
+        <div class="card">
+          <h2>Jingyan Inpainted 3</h2>
+          <img src="imgs/jingyan_inpanted_3.gif" alt="Jingyan Inpainted 3">
+        </div>
+
+        <div class="card">
+          <h2>Jingyan Inpainted 5</h2>
+          <img src="imgs/jingyan_inpanted_5.gif" alt="Jingyan Inpainted 5">
+        </div>
+
+        <div class="card">
+          <h2>Jingyan Inpainted 6</h2>
+          <img src="imgs/jingyan_inpanted_6.gif" alt="Jingyan Inpainted 6">
+        </div>
+
+        <div class="card">
+          <h2>Kongxi 3D Rendering</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/kongxi_3d_render.webm" type="video/webm">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Deep Fake</h2>
+          <img src="imgs/dongqing_faceswap.png" alt="Deep Fake">
+        </div>
+
+        <div class="card">
+          <h2>Src Face</h2>
+        </div>
+
+        <div class="card">
+          <h2>3D Reconstruction</h2>
+          <img src="imgs/deepface.gif" alt="3D Reconstruction">
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/dqing.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Replace Face with Dongqing 1</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/dqing_swapsingle.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Replace Face with Dongqing 2</h2>
+          <video width="1920" height="1080" autoplay muted>
+            <source src="imgs/dq2_swapsingle.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+
+        <div class="card">
+          <h2>Super Resolution</h2>
+          <img src="imgs/super_resolution.png" alt="Super Resolution">
+        </div>
+
+        <div class="card">
+          <h2>3D Reconstruction GIF</h2>
+          <img src="imgs/3d_reconstruction.gif" alt="3D Reconstruction GIF">
+        </div>
+
+        <div class="card">
+          <h2>Doc Image Correction</h2>
+          <img src="imgs/doc_img_correction.gif" alt="Doc Image Correction">
+        </div>
+
+        <div class="card">
+          <h2>Clustering Attention</h2>
+          <img src="imgs/kaifa_attention.gif" alt="Clustering Attention">
+        </div>
+      </div>
     </section>
+
+    <!-- Footer -->
     <footer>
-
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a
-                href="https://github.com/orderedlist">orderedlist</a></small></p>
+      <p><small>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     </footer>
-</div>
-<script src="/assets/js/scale.fix.js"></script>
+  </div>
 
-<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-143711627-1', 'auto');
-      ga('send', 'pageview');
-
-
-
-</script>
-
+  <script src="/assets/js/scale.fix.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-143711627-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
